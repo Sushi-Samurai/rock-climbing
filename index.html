@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Climbing - My Hobby 🧗‍♂️</title>
+    <style>
+      body {
+        background: linear-gradient(
+          180.3deg,
+          rgb(221, 221, 221) 5.5%,
+          rgb(110, 136, 161) 90.2%
+        );
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+      h1 {
+        text-align: center;
+        font-size: 38px;
+      }
+      h2 {
+        text-align: center;
+        font-size: 24px;
+      }
+      img {
+        max-width: 100%;
+      }
+      p {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+      a {
+        color: inherit;
+      }
+      button {
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+        border: 1px solid #6e88a1;
+        color: beige;
+        background: #6e88a1;
+        box-shadow: 2px 2px 2px #323b5c52;
+        font-size: 20px;
+        border-radius: 30px;
+        padding: 10px 15px;
+        transition: 150ms all ease-in-out;
+      }
+      button:hover {
+        background: rgba(255, 255, 255, 0.4);
+        color: #6e88a1;
+        cursor: pointer;
+      }
+      .near-you-button {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      .container {
+        margin: 0 auto;
+        max-width: 600px;
+        background: rgba(255, 255, 255, 0.4);
+        padding: 20px;
+        border-radius: 10px;
+      }
+      footer {
+        text-align: center;
+        margin: 20px 0;
+        font-size: 18px;
+      }
+      .theme-button {
+        margin: 15px auto;
+        font-size: 10px;
+        background: #6e88a1;
+        color: beige;
+        padding: 5 8px;
+      }
+      .theme-button:hover {
+        background: rgba(255, 255, 255, 0.4);
+        color: #323b5c;
+      }
+      .climbing-intro-picture {
+        border-radius: 10px;
+        transition: all 150ms ease-in-out;
+      }
+      .climbing-intro-picture:hover {
+        filter: contrast(50%);
+        transform: scale(1.1);
+      }
+      .grid {
+        margin: 10px 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px;
+      }
+      .grid img {
+        width: 100%;
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 8px;
+        transition: all 150ms ease-in-out;
+      }
+      .grid img:hover {
+        transform: scale(1.01);
+      }
+
+      .dark {
+        background: linear-gradient(
+          112.1deg,
+          rgb(32, 38, 57) 11.4%,
+          rgb(63, 76, 119) 70.2%
+        );
+        color: beige;
+      }
+      .dark .container {
+        background: rgba(255, 255, 255, 0.1);
+      }
+      .dark button {
+        background: #323b5c;
+        color: beige;
+        border: 1px solid #323b5c;
+      }
+      .dark button:hover {
+        color: #323b5c;
+        background: rgba(255, 255, 255, 0.4);
+      }
+    </style>
+  </head>
+  <body>
+    <button class="theme-button">Change theme</button>
+    <div class="container">
+      <h1>🧗‍♂️Rock Climbing</h1>
+
+      <h2>Gravity-defying cardio</h2>
+      <a href="https://en.wikipedia.org/wiki/Rock_climbing" target="_blank"
+        ><img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/066/733/original/rock-climbing1.1.jpg?1675995455"
+          alt=""
+          class="climbing-intro-picture"
+      /></a>
+      <div class="grid">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/066/728/original/rock-climbing2.png?1675995011"
+          alt=""
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/066/729/original/rock-climbing3.png?1675995021"
+          alt=""
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/066/732/original/rock-climbing4.1.jpg?1675995446"
+          alt=""
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/066/731/original/rock-climbing5.png?1675995036"
+          alt=""
+        />
+      </div>
+
+      <p>
+        Rock climbing is a sport in which participants climb up, across, or down
+        rock formations. You can climb indoors at a climbing gym, or outdoors.
+        The goal is to reach the summit of a formation or the endpoint of a
+        usually pre-defined route without falling.
+      </p>
+      <strong>
+        📖
+        <a
+          class="link"
+          href="https://en.wikipedia.org/wiki/Rock_climbing"
+          target="_blank"
+          >Read on Wikipedia</a
+        >
+      </strong>
+
+      <button>
+        <a
+          class="near-you-button"
+          href="https://www.google.com/search?q=climbing+gym+near+me&rlz=1C1CHBF_enUS878US878&oq=climbing+gym+near+me&aqs=chrome..69i57j0i402l2j0i512l2j0i22i30i625l4j0i22i30.4912j0j7&sourceid=chrome&ie=UTF-8"
+          target="_blank"
+          >FIND A CLIMBING GYM NEAR YOU</a
+        >
+      </button>
+    </div>
+    <footer>
+      Coded by 👩‍💻
+      <a
+        class="link"
+        href="https://www.shecodes.io/graduates/63509-sam-turner"
+        target="_blank"
+        >Sam Turner</a
+      >
+      with HTML, CSS, and JavaScript
+    </footer>
+    <script>
+      function changeTheme() {
+        let body = document.querySelector("body");
+
+        //body.classList.toggle("dark"); //or:
+        if (body.classList.contains("dark")) {
+          body.classList.remove("dark");
+        } else {
+          body.classList.add("dark");
+        }
+      }
+
+      let themeButton = document.querySelector(".theme-button");
+      themeButton.addEventListener("click", changeTheme);
+    </script>
+  </body>
+</html>
